@@ -4,6 +4,15 @@ class Animal:
         self.species = species
         self.speed = 0
         self.legs = 0
+# parameters of animal class
+#
+@property
+def name(self):
+    return _name
+
+@name.setter
+def set_name(self, val):
+    self._name = val
 
     def get_name(self):
         """Returns the animal's name"""
@@ -40,5 +49,3 @@ class Dog(Animal):
     def walk(self):
         """Sets the speed of the dog"""
         self.speed = self.speed + (0.2 * self.legs)
-
-Contact GitHub API Training Shop Blog About
