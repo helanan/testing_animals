@@ -6,17 +6,14 @@ class Animal:
         self.legs = 0
 # parameters of animal class
 #
-@property
-def name(self):
-    return _name
+  @property
+  def name(self):
+      return self.__name
 
-@name.setter
-def set_name(self, val):
-    self._name = val
-
-    def get_name(self):
-        """Returns the animal's name"""
-        return self.name
+  @name.setter
+  def name(self, val):
+      if isinstance(val str):
+        self.__name = val
 
     def walk(self):
         """Sets the speed of the animal"""
